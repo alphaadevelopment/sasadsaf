@@ -1,0 +1,381 @@
+/* Genel Ayarlar */
+.hidden {
+  display: none;
+}
+
+/* Header */
+.navbar .logo {
+    max-width: 100px;
+}
+  
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar-alt {
+   padding-top: 90px;
+   padding-bottom: 10px;
+}
+
+.navbar-alt-admin {
+  padding-top: 10px;
+}
+
+.navbar-alt-admin li i {
+  padding-left: 5px;
+}
+
+.navbar-alt .nav-link, .navbar-alt-secenek .nav-link {
+  color: #929fc1;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.navbar-alt .nav-link:hover, .navbar-alt .nav-link.active {
+  color: #fff;
+}
+
+.navbar-alt ul, .navbar-alt-secenek ul {
+    margin: 0;
+}
+
+.navbar-alt-secenek {
+  padding-top: 10px;
+}
+  
+.navbar-alt-secenek .nav-link:hover, .navbar-alt-secenek .nav-link.active {
+  color: rgb(177, 255, 229);
+}
+
+.header-bilgi {
+  display: inline-flex;
+}
+
+.header-bilgi i {
+  background: rgba(20, 104, 113, 0.702);
+  color: rgb(56, 236, 236);
+  line-height: 60px;
+  font-size: 20px;
+  margin-right: 15px;
+  border-radius: 30px;
+  width: 60px;
+  text-align: center;
+  height: 60px;
+}
+
+.header-bilgi ul li {
+  margin-bottom: -15px;
+}
+
+.header-bilgi ul li h1 {
+  color: #fff;
+}
+
+.breadcrumb {
+  font-size: 14px;
+}
+
+/* Konsol */
+#terminal_input .form-control {
+  height: 24px;
+}
+
+#terminal_input.form-group {
+  margin-bottom: 0;
+}
+
+.nav-link-destek {
+  padding: 7px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+/* Index: Sunucu */
+.sunucu-satin-al .btn {
+  margin-top: 10px;
+}
+
+.sunucu-satin-al a {
+  color: #fff !important;
+}
+
+.sunucu {
+  border: 3px solid #0c0c28;
+}
+
+.sunucu .card-header {
+  position: relative;
+  display: block;
+  border-bottom: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.sunucu .sunucu-bg {
+  z-index: 1;
+  position: relative;
+}
+
+.sunucu .card-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.514);
+  z-index: 0;
+}
+
+.sunucu h1 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.sunucu .durum .badge, .sunucu .durum.badge {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 14px;
+  width: 40%;
+  max-width: 100%;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.sunucu .liste-ozellik {
+  list-style: none;
+}
+
+.sunucu .liste-ozellik li {
+  padding: 5px 0;
+}
+
+.sunucu .liste-ozellik span {
+  font-weight: 700;
+  padding-right: 20px;
+}
+
+#server_status_icon {
+  color: #fff;
+}
+
+.sunucu_detay {
+  margin-bottom: 10px;
+}
+
+.header-bilgi.sunucu_detay i {
+  color: #5e72e4;
+  background: rgba(94, 114, 228, 0.102);
+  border-radius: 5px;
+}
+
+.sunucu_detay ul {
+  padding: 10px 0;
+}
+
+.bg-cardheader {
+  background-color: #2c324f;
+  color: #fff !important;
+}
+
+.bg-cardheader:hover {
+  transform: translateY(0px);
+}
+
+.btn.bg-cardheader.collapsed {
+  border-radius: 5px 5px;
+  border-bottom: 1px solid transparent;
+}
+
+.btn.bg-cardheader {
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid #434c75;
+}
+
+.card-body.bg-cardheader {
+  border-radius: 0 0 5px 5px;
+}
+
+.btn-inputgroup {
+  background: #497a77;
+  border-radius: 0;
+}
+
+/* Footer */
+.footer-fixed {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  clear: both;
+  margin-top: 10px;
+}
+
+/* Arka planlar */
+.bg-game {
+  background: url(../img/headerbg.png);
+  background-position: bottom;
+}
+
+.bg-game-minecraft {
+  background: url(../img/minecraft.jpg);
+  background-position: bottom;
+}
+
+.bg-giris {
+  background: url(../img/headerbg.png);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Selection */
+.select2-container {
+  display: inline;
+}
+
+.select2-container--default .select2-selection--single {
+  background-color: #24284c;
+  color: #a8b6c7;
+  border: 0px;
+  height: 45px;
+  padding: 8px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #a8b6c7;
+  font-size: 14px;
+}
+
+.select2-container--open .select2-dropdown--below, .select2-container--open .select2-dropdown--above {
+  border: 0;
+  background-color: #24284c;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid #495088;
+  background: #394077;
+}
+
+.select2-results__option[aria-selected]:hover {
+  background-color: #405080;
+}
+
+.select2-container--default .select2-results__option[aria-selected="true"] {
+  background-color: #30437d;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  display: none;
+}
+
+.select2-container--open .select2-dropdown {
+  z-index: 99999;
+  width: 452px !important;
+}
+
+.centermain {
+  margin-left: 300px;
+}
+
+/* Pagination */
+.pagination {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.page-link {
+  background-color: #24284c;
+  border: 1px solid #24284c;
+}
+
+.page-link:hover {
+  color: #fff;
+  background-color: #5e72e4;
+  border: 1px solid #5e72e4;
+}
+
+.page-item.disabled .page-link {
+  background-color: #24284c;
+  border: 1px solid #24284c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-content .navbar-top {
+    position: relative;
+    padding: 15px !important;
+  }
+
+  .centermain {
+    margin-left: 0;
+  }
+
+  #sidenav-main {
+    padding-top: 25px !important;
+    margin: -15px !important;
+    overflow: auto;
+  }
+
+  .header {
+    padding-top: 5rem !important;
+  }
+
+  .navbar .container {
+    padding: 0 20px;
+  }
+
+  .navbar-nav {
+    flex-direction: inherit;
+  }
+
+  .sidebar .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    padding: 0 10px;
+  }
+
+  .navbar-alt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sunucu .durum .badge, .sunucu .durum.badge {
+    width: 100%;
+  }
+
+  .select2-container--open .select2-dropdown {
+    width: max-content !important;
+  }
+}
+
+.filemg-input {
+  background: #24284c;
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+
+.filemg-input code {
+  height: 100%;
+  line-height: 45px;
+  padding-left: 15px;
+}
+
+.progress-bar-success {
+  background-color: #2dce89;
+}
+
+.progress-bar-danger {
+  background-color: #ce2d2d;
+}
+
+.input-group .input-group-addon {
+  margin: auto;
+  padding-left: 5px;
+}
+
+tr[data-type="folder"] td[data-identifier="name"] a {
+  color: #2dce89;
+}
